@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "numbers",
+						"type": "uint256[]"
+					}
+				],
+				"name": "reverse",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "numbers",
+						"type": "uint256[]"
+					}
+				],
+				"name": "reverse2",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/230518/ReverseArray.sol": "ReverseArray"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/230518/ReverseArray.sol": {
+			"keccak256": "0x41bdaa4d77c87033fe3d509b5ccfbad300a1c7ea686b2b47c4b20089d95e2852",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://caeb32a7c143d82e5532e5dd809eb4af82d918a755b3cbade09eeed4f30f21d3",
+				"dweb:/ipfs/QmVWAMpzDheDe9MF317jkVBqkdWRc5HU7mwDwGAerDKgBx"
+			]
+		}
+	},
+	"version": 1
+}
