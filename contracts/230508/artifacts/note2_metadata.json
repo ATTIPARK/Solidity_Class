@@ -1,0 +1,165 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getDD",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "a",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "b",
+								"type": "string"
+							},
+							{
+								"internalType": "bytes2",
+								"name": "c",
+								"type": "bytes2"
+							}
+						],
+						"internalType": "struct note2.D",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
+					}
+				],
+				"name": "getN",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "a",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "b",
+								"type": "string"
+							},
+							{
+								"internalType": "bytes2",
+								"name": "c",
+								"type": "bytes2"
+							}
+						],
+						"internalType": "struct note2.D",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_b",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes2",
+						"name": "_c",
+						"type": "bytes2"
+					}
+				],
+				"name": "pushD",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pushD2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_b",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes2",
+						"name": "_c",
+						"type": "bytes2"
+					}
+				],
+				"name": "setDD",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/230508/note.sol": "note2"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/230508/note.sol": {
+			"keccak256": "0x9e7bd999a39bcc2ed572480622de7c58c291796a970f7b94ab2534a64b0df666",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9b91b5fdecbab5c0090d88ea16db7c4e6d30cc56026b803d9d53b16967fe69d6",
+				"dweb:/ipfs/QmdDEekAHTs1ggWJmEHVXnLUQpxHCw1Gp3u3FvZMsd2uXE"
+			]
+		}
+	},
+	"version": 1
+}

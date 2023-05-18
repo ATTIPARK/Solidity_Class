@@ -1,0 +1,125 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_teacher",
+						"type": "string"
+					}
+				],
+				"name": "getAllStudent",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "math",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "english",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "korean",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "average",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct quiz2.Student[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_teacher",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_student",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_math",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_english",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_korean",
+						"type": "uint256"
+					}
+				],
+				"name": "setTeacherStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/230510/999_quiz.sol": "quiz2"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/230510/999_quiz.sol": {
+			"keccak256": "0x042e97c9ca06d2987a838e31cedddbf56456ded010a3ed6cbfba081c77128acf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://09336acc7688d7bdf072ebe3a8060d2320e83bff9be1f5e6f3a0dd855ba8c23a",
+				"dweb:/ipfs/QmUMW3BwqocwrxBM6s2iCj3yQiZkouEYKFSaB2UmQrjWMH"
+			]
+		}
+	},
+	"version": 1
+}
