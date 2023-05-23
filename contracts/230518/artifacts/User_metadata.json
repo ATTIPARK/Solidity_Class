@@ -8,44 +8,13 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_n",
-						"type": "uint256"
-					}
-				],
-				"name": "getUser",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
 						"internalType": "address",
-						"name": "",
+						"name": "_a",
 						"type": "address"
-					},
-					{
-						"internalType": "string[]",
-						"name": "",
-						"type": "string[]"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getUsers",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			},
 			{
 				"inputs": [
@@ -56,6 +25,24 @@
 					}
 				],
 				"name": "setUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_title",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_context",
+						"type": "string"
+					}
+				],
+				"name": "suggestPoll",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -92,7 +79,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/230518/Quiz6.sol": "Quiz6"
+			"contracts/230518/Quiz6.sol": "User"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -107,11 +94,11 @@
 	},
 	"sources": {
 		"contracts/230518/Quiz6.sol": {
-			"keccak256": "0x06aa10e1a60c42511e1cf3f2338a8590a1e25ed117e0194733ad8cf13344cfcd",
-			"license": "MIT",
+			"keccak256": "0x2e7aaa8df84fd88639816845a3c46e13ddad37a3790dfb9542e8381e17d9af43",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://bde45b79f2858ce548828cb7d034fc0812ba72afc763d4199ae32414d3f7a8fb",
-				"dweb:/ipfs/QmVZjzSvSVzTRpJ7YFhijxhqMCdBoNXWv1rtmMX2nQMqEh"
+				"bzz-raw://09aa621f3e7bd640a80f591604f685ea0c7e4a36b48cee0f82a1708e9b171884",
+				"dweb:/ipfs/QmZEnEeLuLy1GzdFS2xcjQtyDYw5ku8VyZT9C8qZxoLNzQ"
 			]
 		}
 	},

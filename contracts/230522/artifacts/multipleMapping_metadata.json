@@ -8,27 +8,22 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_n",
-						"type": "uint256"
-					}
-				],
-				"name": "getUser",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
 						"internalType": "address",
-						"name": "",
+						"name": "_addr",
 						"type": "address"
 					},
 					{
-						"internalType": "string[]",
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "getbankAccounts",
+				"outputs": [
+					{
+						"internalType": "uint256",
 						"name": "",
-						"type": "string[]"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -36,15 +31,9 @@
 			},
 			{
 				"inputs": [],
-				"name": "getUsers",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "setBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -55,7 +44,7 @@
 						"type": "string"
 					}
 				],
-				"name": "setUser",
+				"name": "setBankAccounts",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -64,16 +53,21 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_title",
+						"name": "_city",
 						"type": "string"
 					},
 					{
-						"internalType": "bool",
-						"name": "_vote",
-						"type": "bool"
+						"internalType": "string",
+						"name": "_state",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
 					}
 				],
-				"name": "vote",
+				"name": "setBankAccounts2",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -92,7 +86,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/230518/Quiz6.sol": "Quiz6"
+			"contracts/230522/doubleMapping.sol": "multipleMapping"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -106,12 +100,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/230518/Quiz6.sol": {
-			"keccak256": "0x06aa10e1a60c42511e1cf3f2338a8590a1e25ed117e0194733ad8cf13344cfcd",
+		"contracts/230522/doubleMapping.sol": {
+			"keccak256": "0xb76917007e8102034b76d9d211fd3803562d44349d2cdaf847261e649a4a63e2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bde45b79f2858ce548828cb7d034fc0812ba72afc763d4199ae32414d3f7a8fb",
-				"dweb:/ipfs/QmVZjzSvSVzTRpJ7YFhijxhqMCdBoNXWv1rtmMX2nQMqEh"
+				"bzz-raw://76361a13cfe1821ef7393fbc9333cb7219ef306fcc610d415e97917ef22ffa4b",
+				"dweb:/ipfs/QmQ8XeeSF98dzDthTYUaFQZkx5SegZeEpEthM3fLR17VLk"
 			]
 		}
 	},

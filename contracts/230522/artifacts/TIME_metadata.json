@@ -6,51 +6,42 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_n",
-						"type": "uint256"
-					}
-				],
-				"name": "seperateNumber",
+				"inputs": [],
+				"name": "currentBlockNumber",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					},
-					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_string",
-						"type": "string"
-					}
-				],
-				"name": "seperateString",
+				"inputs": [],
+				"name": "currentTime",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					},
-					{
-						"internalType": "string[]",
-						"name": "",
-						"type": "string[]"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "currentTime2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -67,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/230517/99_test.sol": "codingTest"
+			"contracts/230522/time.sol": "TIME"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -81,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/230517/99_test.sol": {
-			"keccak256": "0x32b61674379535b8f66b5087168eff8c2baece8649322a5d0579e0e7bfce9b54",
+		"contracts/230522/time.sol": {
+			"keccak256": "0x8fd0014ee4ec886a94c5976739c4bd8601190f26dcf4430efb2bbc36586ccfb0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://38f002c8e8cdedc354ef7d742254d85294acf927b4bbf5eeb860cc8806dc523e",
-				"dweb:/ipfs/QmbgMuZGPjcy1m66D1bgoXzFnuDt1Z6bZBcrnbHkg6vKzQ"
+				"bzz-raw://95a79ea346cbcdeb68589217475a7a28ba80cfa753c434be811d71a6949080ab",
+				"dweb:/ipfs/QmXdaxtYodDULroSaKqjU33ptUNvUh8r862ffm3Eo96wok"
 			]
 		}
 	},

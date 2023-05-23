@@ -9,73 +9,73 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_n",
+						"name": "number",
 						"type": "uint256"
 					}
 				],
-				"name": "getUser",
+				"name": "Time1",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					},
 					{
-						"internalType": "address",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					},
-					{
-						"internalType": "string[]",
-						"name": "",
-						"type": "string[]"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getUsers",
-				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
 					}
 				],
-				"name": "setUser",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
+				"name": "Time2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
 					{
 						"internalType": "string",
-						"name": "_title",
+						"name": "",
 						"type": "string"
 					},
 					{
-						"internalType": "bool",
-						"name": "_vote",
-						"type": "bool"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
-				"name": "vote",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -92,7 +92,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/230518/Quiz6.sol": "Quiz6"
+			"contracts/230522/quiz7.sol": "Quiz7"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -106,12 +106,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/230518/Quiz6.sol": {
-			"keccak256": "0x06aa10e1a60c42511e1cf3f2338a8590a1e25ed117e0194733ad8cf13344cfcd",
+		"contracts/230522/quiz7.sol": {
+			"keccak256": "0x57519046f94d267cf55d3a5e5eb50fd7dbad8f51b11b610d80b7b9ff11923529",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bde45b79f2858ce548828cb7d034fc0812ba72afc763d4199ae32414d3f7a8fb",
-				"dweb:/ipfs/QmVZjzSvSVzTRpJ7YFhijxhqMCdBoNXWv1rtmMX2nQMqEh"
+				"bzz-raw://59d75836c92b4ee837a835857e955c32bbd4a28f6cb99aaad1a66e3cd5ae20e8",
+				"dweb:/ipfs/QmdghNGPsPS7qzfuweir9ZS4FEQmjbhDtvQTvSMbCMXGRH"
 			]
 		}
 	},

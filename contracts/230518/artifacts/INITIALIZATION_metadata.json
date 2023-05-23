@@ -1,0 +1,167 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "S1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "b",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "c",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes1",
+						"name": "d",
+						"type": "bytes1"
+					},
+					{
+						"internalType": "bytes",
+						"name": "e",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bool",
+						"name": "f",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getA",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					},
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getG",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					},
+					{
+						"internalType": "bytes1[4]",
+						"name": "",
+						"type": "bytes1[4]"
+					},
+					{
+						"internalType": "uint256[4]",
+						"name": "",
+						"type": "uint256[4]"
+					},
+					{
+						"internalType": "address[4]",
+						"name": "",
+						"type": "address[4]"
+					},
+					{
+						"internalType": "string[4]",
+						"name": "",
+						"type": "string[4]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pushG1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/230518/Quiz6.sol": "INITIALIZATION"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/230518/Quiz6.sol": {
+			"keccak256": "0x7c4b141075e7df3e07c826ac6de3e1dea0a09f9d5262d2f2f6ea193ecb1e613b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6b8163b5b2f6881ee5286317898e9bd252f4ab086300087af668ca599571164d",
+				"dweb:/ipfs/QmVwZBME7tmh9xbsALWnDKMzuL6Q8G6hhPrULjzvtKPMKa"
+			]
+		}
+	},
+	"version": 1
+}
