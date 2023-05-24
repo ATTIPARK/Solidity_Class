@@ -298,11 +298,11 @@
 	},
 	"sources": {
 		"contracts/230522/quiz6-2.sol": {
-			"keccak256": "0xd7f5d15cd17f28dd47677c31017ad651ea0f16b01625b4d5efdaca06794f1caf",
+			"keccak256": "0x4ceb44dabfd4d4139242208b198394c30d480e4b12afefe4a3dfab2446b75285",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://539a916df23c44c3a39d2c2d54adb5fba3d10cef128a69ebd771a1753d638708",
-				"dweb:/ipfs/QmfLrydhxRJYcyFHacm3iHQKcXRYV2punmxwmJWA5EyFgq"
+				"bzz-raw://49f8fecfa74773755761dd7b65b3a1b24f5ccbe28fd37ce7c78c1ac725d12d52",
+				"dweb:/ipfs/QmSjgdv64EPNbtk2iybgjwyo9UN6Jwhas4Hfua8Ld9a5Kt"
 			]
 		}
 	},

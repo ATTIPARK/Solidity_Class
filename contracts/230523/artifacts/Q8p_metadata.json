@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_modulus",
+						"type": "uint256"
+					}
+				],
+				"name": "randMod",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/230523/quiz8.sol": "Q8p"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/230523/quiz8.sol": {
+			"keccak256": "0x2462cb98394db7ded3e7549400edc0ec079affecc19ab2abddecda7c8b792b35",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c3c6582f9257e7db4106301d40951983f0044944ec63ca6dd229a934221d0047",
+				"dweb:/ipfs/QmY8RdWuQCHVBv2UtoqNLaMAZUmPAHyafn1FmAuJCm7T59"
+			]
+		}
+	},
+	"version": 1
+}

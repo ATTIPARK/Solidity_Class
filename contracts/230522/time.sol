@@ -7,8 +7,4 @@ contract TIME {
     function currentTime2() public view returns(uint) {
         return block.timestamp;
     }
-
-    function currentBlockNumber() public view returns(uint) {
-        
-    }
 }

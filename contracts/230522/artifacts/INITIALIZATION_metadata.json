@@ -7,45 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "S1",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "b",
-						"type": "string"
-					},
-					{
-						"internalType": "address",
-						"name": "c",
-						"type": "address"
-					},
-					{
-						"internalType": "bytes32",
-						"name": "d",
-						"type": "bytes32"
-					},
-					{
-						"internalType": "bytes",
-						"name": "e",
-						"type": "bytes"
-					},
-					{
-						"internalType": "bool",
-						"name": "f",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getA",
+				"name": "getABCDEF",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -83,7 +45,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "getG",
+				"name": "getGHIJKL",
 				"outputs": [
 					{
 						"internalType": "uint256[]",
@@ -118,80 +80,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getG2",
-				"outputs": [
-					{
-						"components": [
-							{
-								"internalType": "uint256[]",
-								"name": "g",
-								"type": "uint256[]"
-							},
-							{
-								"internalType": "string[]",
-								"name": "h",
-								"type": "string[]"
-							},
-							{
-								"internalType": "bytes1[4]",
-								"name": "i",
-								"type": "bytes1[4]"
-							}
-						],
-						"internalType": "struct INITIALIZATION.set2[]",
-						"name": "",
-						"type": "tuple[]"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getS2",
-				"outputs": [
-					{
-						"components": [
-							{
-								"internalType": "uint256[]",
-								"name": "g",
-								"type": "uint256[]"
-							},
-							{
-								"internalType": "string[]",
-								"name": "h",
-								"type": "string[]"
-							},
-							{
-								"internalType": "bytes1[4]",
-								"name": "i",
-								"type": "bytes1[4]"
-							}
-						],
-						"internalType": "struct INITIALIZATION.set2",
-						"name": "",
-						"type": "tuple"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "pushG1",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "pushG2",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -222,11 +110,11 @@
 	},
 	"sources": {
 		"contracts/230522/initialization.sol": {
-			"keccak256": "0xe700148a95ca59e603431f16963acc5c164189afbc8fbd12d6ae969123073492",
+			"keccak256": "0x1709986ebc3810caf853e30d9af0788218a5847965b4423339b6f5e52dd53cd2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9e9a3bb848b7132d1ff008e3fbb2e2458f0dc7ed158915860ee3d26636390072",
-				"dweb:/ipfs/Qma7FKMKjTBWbUq3ebcRvMNGir9AQHNkWmUbZGJmXUkNSN"
+				"bzz-raw://521f72922143f6973d26e990d457bea6a8b57da9b0438bb9df30e829796725a0",
+				"dweb:/ipfs/QmaPRdyjMUzZY3YKv67SH2VKdwHPvaiCnLisDk8Xiwb8tW"
 			]
 		}
 	},

@@ -7,19 +7,6 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "currentBlockNumber",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "currentTime",
 				"outputs": [
 					{
@@ -73,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/230522/time.sol": {
-			"keccak256": "0x8fd0014ee4ec886a94c5976739c4bd8601190f26dcf4430efb2bbc36586ccfb0",
+			"keccak256": "0x0deaf102980c029acdc3a86be8c6c713daaa9d0aac718c23b1ff111765512c0f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://95a79ea346cbcdeb68589217475a7a28ba80cfa753c434be811d71a6949080ab",
-				"dweb:/ipfs/QmXdaxtYodDULroSaKqjU33ptUNvUh8r862ffm3Eo96wok"
+				"bzz-raw://611a984723502fa8463d28d7f5083bb86ad2ecad97221155fbf714cf24452854",
+				"dweb:/ipfs/QmdcEBoqen3JHTn5vtrFsmzoF84eXnAa9svH1wnp1aT1JV"
 			]
 		}
 	},

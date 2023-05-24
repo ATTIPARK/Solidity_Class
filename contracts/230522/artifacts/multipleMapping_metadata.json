@@ -86,7 +86,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/230522/doubleMapping.sol": "multipleMapping"
+			"contracts/230522/multipleMapping.sol": "multipleMapping"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -100,7 +100,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/230522/doubleMapping.sol": {
+		"contracts/230522/multipleMapping.sol": {
 			"keccak256": "0xb76917007e8102034b76d9d211fd3803562d44349d2cdaf847261e649a4a63e2",
 			"license": "MIT",
 			"urls": [

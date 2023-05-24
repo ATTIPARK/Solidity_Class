@@ -69,8 +69,8 @@ contract Q6 {
     }
 
     // 투표하는 기능 - 특정 안건에 대하여 투표하는 기능, 안건은 제목으로 검색, 이미 투표한 건에 대해서는 재투표 불가능
-    function vote(string calldata _title, bool _vote) public isitUser {
-        require(users[msg.sender].voted[_title]==votingStatus.notVoted); //투표자가 해당 안건에 대해서 투표를 안했어야 함
+    function vote(string calldata _title, bool _vote) external/*상속받은 애도 못하게*/ isitUser {
+        require(users[msg.sender].voted[_title]==votingStatus.notVoted && polls[_title].status == pollStatus.ongoing); //투표자가 해당 안건에 대해서 투표를 안했어야 함
         // 찬성이냐, 반대이냐
         if(_vote==true) {
             polls[_title].pros++;
@@ -100,7 +100,7 @@ contract Q6 {
     // 안건 진행 과정 - 투표 진행중, 통과, 기각 상태를 구별하여 알려주고 전체의 70% 그리고 투표자의 66% 이상이 찬성해야 통과로 변경, 둘 중 하나라도 만족못하면 기각
     function finishPoll(string memory _title) public isitUser {
         require(block.timestamp > polls[_title].time+100);
-        if((polls[_title].pros + polls[_title].cons) > userCount*7/10 && (polls[_title].pros) / (polls[_title].pros + polls[_title].cons) * 100 > 60) {
+        if((polls[_title].pros + polls[_title].cons) > userCount*7/10 && (polls[_title].pros) * 100 / (polls[_title].pros + polls[_title].cons) > 66) {
             polls[_title].status = pollStatus.passed;
         } else {
             polls[_title].status = pollStatus.rejected;

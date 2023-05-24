@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
+					}
+				],
+				"name": "setTime",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/230523/quiz7.sol": "Q7"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/230523/quiz7.sol": {
+			"keccak256": "0x7e0e3b512ac0d163012fc08b7982b92bf803ebab77659e160e2c65c5d13a3d73",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1d3bb8306ae2796d5d4f334e83ef2034bcdbbfe90cd8644a28be20b7cc5ca206",
+				"dweb:/ipfs/QmVyT3MxB4Qr3pT9UQkzmHBg5VBs19PJWzPegYWvn7ug8k"
+			]
+		}
+	},
+	"version": 1
+}
