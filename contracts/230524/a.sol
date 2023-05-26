@@ -12,14 +12,3 @@ contract A {
     }
 }
 
-contract B {
-    A b = new A();
-
-    constructor(address Aaddress) {
-        b = A(Aaddress);
-    }
-
-    function setB(uint _b) public {
-        b.setA(_b);
-    }
-}

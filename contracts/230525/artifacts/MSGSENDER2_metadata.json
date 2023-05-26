@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/230525/bankapp.sol": "MSGSENDER2"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/230525/bankapp.sol": {
+			"keccak256": "0x8c4be4c5cbed8e3353e666814506d3c2fe7dc2a04037bfc6b43688dd858215dd",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ddbe0783e3236b7aaa93fb975e58c45e8693a080b21fb7c27829c6c7e8c7116b",
+				"dweb:/ipfs/QmRPy9VaqqzWDRWiQL4uVNpJGJtyLpPqxZk79uqc9VfPnb"
+			]
+		}
+	},
+	"version": 1
+}
