@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/230531/babylion.sol": "babyLion"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/230531/babylion.sol": {
+			"keccak256": "0x53a61294b7425f6820aab06846467d75fdb16f59a1eaf3a6874145ea7df9a527",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bfdc90e8911e740577f4903d95ff5faa3d3801c278fbaaa14a98b6f2aac7417b",
+				"dweb:/ipfs/QmRRMAm7nHhrg8cq1iYfaSYozNoV3zSuoK2sa5N6hTM6J2"
+			]
+		}
+	},
+	"version": 1
+}
